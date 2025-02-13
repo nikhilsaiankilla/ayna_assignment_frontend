@@ -12,7 +12,7 @@ const Login = ({ setSession }) => {
 
   const handleLogin = async (email, password) => {
     try {
-      const response = await axios.post("http://localhost:1337/api/auth/local", {
+      const response = await axios.post("https://ayna-assignment-backend.vercel.app/api/auth/local", {
         identifier: email,
         password,
       });

@@ -44,7 +44,7 @@ const Signup = () => {
 
   const handleSignup = async (name, email, password) => {
     try {
-      const response = await axios.post("http://localhost:1337/api/auth/local/register", {
+      const response = await axios.post("https://ayna-assignment-backend.vercel.app/api/auth/local/register", {
         username: name,
         email: email,
         password: password,
