@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 import { FaLocationArrow } from "react-icons/fa6";
 
-const socket = io("https://ayna-assignment-backend.vercel.app/"); 
+const socket = io("https://ayna-assignment-backend-9du3.onrender.com/"); 
 
 const Chat = ({ session }) => {
   const [messages, setMessages] = useState([]);
