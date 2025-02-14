@@ -46,7 +46,7 @@ const Login = ({ setSession }) => {
           {error && <p className="error-message">{error}</p>}
           <form onSubmit={handleSubmit}>
             <div className="input-group">
-              <label>Name</label>
+              <label>Email</label>
               <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
             </div>
             <div className="input-group">

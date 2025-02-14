@@ -13,6 +13,8 @@ const Home = () => {
         Gemini 2.0 Flash and WebSockets for seamless communication.
       </p>
       <button className="button" onClick={() => navigate('/chat')}>Get Started</button>
+
+      <p>developed by nikhil sai ankilla</p>
     </div>
 
   );
