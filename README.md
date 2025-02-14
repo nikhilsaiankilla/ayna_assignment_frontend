@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+AI Chatbot with Real-Time Communication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Overview
 
-## Available Scripts
+This project is a real-time chatbot application that allows users to sign up, log in, and interact with an AI-powered chatbot. The chatbot is powered by the Gemini 2.0 Flash API, and real-time communication is enabled using WebSockets. The backend is built with Strapi, ensuring a structured and efficient content management system. The frontend is designed with a responsive UI, making it accessible across different devices.
 
-In the project directory, you can run:
+Features
 
-### `npm start`
+User Authentication: Users can sign up and log in securely.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+AI-Powered Responses: Integrated Gemini 2.0 Flash API for generating AI-driven responses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Real-Time Chat: Implemented using WebSockets to ensure instant messaging.
 
-### `npm test`
+Backend with Strapi: Used Strapi as the backend for managing users and chat data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsive Design: The UI adapts seamlessly across different screen sizes.
 
-### `npm run build`
+Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frontend: ReactJS, CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Backend: Strapi (Node.js-based CMS)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Database: MySQL
 
-### `npm run eject`
+Real-Time Communication: WebSockets (Socket.io)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+AI API: Gemini 2.0 Flash API
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Ensure you have the following installed:
 
-## Learn More
+Node.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+MySQL
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Strapi
 
-### Code Splitting
+Socket.io
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Backend Setup
 
-### Analyzing the Bundle Size
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git clone [<repository-url>](https://github.com/nikhilsaiankilla/ayna_assignment_backend)
+cd server
 
-### Making a Progressive Web App
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm install
 
-### Advanced Configuration
+Configure the .env file with database credentials and API keys.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the Strapi backend:
 
-### Deployment
+npm run develop
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Frontend Setup
 
-### `npm run build` fails to minify
+Navigate to the frontend directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+cd frontend
+
+Install dependencies:
+
+npm install
+
+Start the frontend:
+
+npm run dev
+
+Usage
+
+Sign up and log in.
+
+Chat with the AI-powered bot in real-time.
+
+Experience smooth and fast responses powered by Gemini 2.0 Flash API.
+
+Project Purpose
+
+This project was developed as part of my assignment to secure an internship as a Full-Stack Developer at Ayna.
+
+Future Improvements
+
+Adding user-to-user real-time chat.
+
+Enhancing the chatbot with more AI capabilities.
+
+Implementing message history and storage.
+
+Author
+
+Nikhil Sai Ankilla
+
+
